@@ -1,57 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Ingenieria de Software 4</title>
-	<style>
-		.container-al{
-			display: flex;
-			background-color: black;
-			align-items: center;
-			justify-content: center;
-			width: 100%;
-		}
-
-		.container-al h1 {
-			color: white;
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 50px;
-			animation-name: glow-al;
-			animation-duration: 1s;
-			animation-iteration-count: infinite;
-			animation-direction: alternate;
-		}
-
-		@keyframes glow-al {
-			from{ text-shadow: 0px 0px 5px, 0px 0px 5px purple; }
-			to{ text-shadow: 0px 0px 20px, 0px 0px 20px purple; }
-			
-		}
-	</style>
+    <title>ProgramaYa!</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<p>Estamos trabajando con Git.</p>
-<div><h1>Welcome Pretty's :)</h1></div>
+    <header>
+        <div class="container">
+            <p class="logo">ProgramaYa!</p>
+            <nav>
+                <a href="index2.html">Quienes Somos</a>
+                <a href="index2.html">Nuestros Programas</a>
+                <a href="index2.html">Características</a>
+            </nav>
+        </div>
+    </header>
 
-<div><h1>Repositorio Johana Orozco</h1></div><div><p>Este es el contenido principal de mi sitio Web</p><img src="imagen.jpg"alt="Imagen de ejemplo"</div>
-<div>2</div>
-<div><h1>Paula Andrea Botia 20</h1></div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
-<div>11</div>
-<div>12</div>
-<div>13</div>
-<div>14</div>
-<div>15</div>
-<div>16</div>
-<div>17</div>
-<div class="container-al">
-	<h1>Andrés López</h1>
-</div>
-<div>19</div>
+    <section id="hero">
+        <h1>Aprendé a Programar <br>con los Mejores</h1>
+        <button>APLICÁ YA!</button>
+    </section>
 
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">ProgramaYa!</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum accusamus, perspiciatis odio nemo minus vel!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros Programas</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Programador Front-end</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Programador Full-Stack</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Programador Python</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ 100% online</li>
+                <li>✔️ Flexibilidad de horarios</li>
+                <li>✔️ Soporte 1:1</li>
+                <li>✔️ Asistencia financiera</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para programar?</h2>
+        <button>APLICÁ YA!</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; ProgramaYa 2021</p>
+        </div>
+    </footer>
 </body>
 </html>
